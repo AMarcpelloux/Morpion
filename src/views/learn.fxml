@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ProgressBar id="bar_loading" layoutX="50.0" layoutY="323.0" prefHeight="30.0" prefWidth="800.0" progress="0.0" />
+            <Button id="button_go" layoutX="300.0" layoutY="506.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" text="Go">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <TextField id="text_loading" alignment="CENTER" editable="false" layoutX="175.0" layoutY="242.0" prefHeight="50.0" prefWidth="500.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
